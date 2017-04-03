@@ -9,6 +9,7 @@ description: 我们是来自中国的 Kotlin 爱好者
 author: Bennyhuo
 email: bennyhuo@kotliner.cn
 language: zh-CN
+avatar: assets/Kotlin-logo.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
