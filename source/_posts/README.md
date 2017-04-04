@@ -16,11 +16,11 @@
 
 关注微信公众号：Kotlin， 获取最新视频更新动态
 
-<img src="arts/Kotlin.jpg" width="250px"/>
+<img src="/arts/Kotlin.jpg" width="250px"/>
 
 加入 QQ 群 Kotlin ，162452394：
 
-<img src="arts/e_group.png" width="250px"/>
+<img src="/arts/e_group.png" width="250px"/>
 
 # 目录
 
@@ -141,5 +141,5 @@
 
 录制这样一套视频确实是需要花费时间和心血的，如果您觉得它对您有帮助，可以通过微信和支付宝打赏，我将努力将视频做到最好！谢谢！
 
-<img src="arts/contributes.jpg" width="450px"/>
+<img src="/arts/contributes.jpg" width="450px"/>
 

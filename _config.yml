@@ -85,3 +85,6 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
+
+include:
+  - .nojekyll
