@@ -1,0 +1,3 @@
+[submodule "themes/indigo"]
+	url = git@github.com:enbandari/hexo-theme-indigo.git
+	path = themes/indigo
