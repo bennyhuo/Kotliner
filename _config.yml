@@ -6,8 +6,8 @@
 title: Kotliner
 subtitle: Kotlin 是门好语言
 description: 我们是来自中国的 Kotlin 爱好者
-author: Bennyhuo
-email: bennyhuo@kotliner.cn
+author: Kotliner
+email: kotlin@kotliner.cn
 language: zh-CN
 avatar: assets/Kotlin-logo.png
 
@@ -64,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -88,3 +88,22 @@ sitemap:
 
 include:
   - .nojekyll
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true

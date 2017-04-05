@@ -1,4 +1,9 @@
-[![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+---
+title: Kotlin从入门到『放弃』系列 视频教程
+date: 2017-04-05 11:40:48
+---
+
+
 
 # [Kotlin从入门到『放弃』系列 视频教程](https://github.com/enbandari/Kotlin-Tutorials) 
 
