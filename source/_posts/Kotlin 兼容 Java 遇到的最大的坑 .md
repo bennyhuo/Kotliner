@@ -1,7 +1,13 @@
+
 ---
-title: Kotlin 兼容 Java 遇到的最大的“坑”
-date: 2017-04-05 11:40:48
+title: Kotlin 兼容 Java 遇到的最大的坑 
+date: 2017-04-03 15:05:15
+author: bennyhuo
+tags:
+keywords:
+categories:
 ---
+
 
 前言：上周我发了一篇文章[Kotlin 遇到 MyBatis：到底是 Int 的错，还是 data class 的错？](https://mp.weixin.qq.com/s?__biz=MzIzMTYzOTYzNA==&mid=2247483908&idx=1&sn=0c072a630198d4a23a7d3aec700c138b&chksm=e8a05d39dfd7d42f1494c5f0fcc0562112be6d8912e44fc51f17dee472f9ebdfaad7d930e3b1#rd)讲如何解决群里面一兄弟遇到的 data class 与 MyBatis 相克的问题，其中提到了几种外门邪道的方法，也提到了官方的解决思路，有些朋友看了之后还是不太明白，甚至紧接着就有小伙伴在使用 Realm 的时候遇到了类似的问题，看来，我还是得再写一篇来进一步告诉大家，这究竟是个什么问题，以及该如何面对它。
 
@@ -224,3 +230,5 @@ Kotlin 这么美的语言，怎么能写这么丑陋的东西呢？这就好比�
 有人回答说：明明这就是丑陋的东西，为什么要美化？掩盖事物的本质只能让事情变得更糟糕！
 
 我们用 Kotlin 企图兼容 Java 的做法，本来就是权宜之计，兼容必然带来新旧两种观念的冲突以及丑陋的发生，这么说来，我倒是更愿意期待 Kotlin Native 的出现了。
+
+![](/arts/kotlin扫码关注.png)
