@@ -129,7 +129,7 @@ Whatever，Kotlin 现在都可以支持 node.js 了，还有什么不可能的�
 
 2016 年是 Kotlin “元年（First year of Kotlin）”，官网给出了这样一幅图来展示它一年来的成绩：
 
-![](/assets/2017.3.4/GitHub-Stats-1.gif)
+![](/assets/2017.3.4/Kotlin11blogbanner1.jpg)
 
 Github 上面的代码量都破千万了，使用 Kotlin 的公司也逐渐增多，除了 JetBrains 自己以外，我觉得在 Java 界比较有分量的就是 Square 了，如果 Google 能够稍微提一句 Kotlin ，显然这个故事就会有另外一个令人兴奋的版本——好啦，不要 yy 啦。
 
