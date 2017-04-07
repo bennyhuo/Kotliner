@@ -3,9 +3,9 @@
 title: 喜大普奔！Kotlin 1.1 Beta 降临~
 date: 2017-01-21 12:55:54
 author: bennyhuo
-tags:
+tags: [Coroutine, Type Alias]
 keywords:
-categories:
+categories: 官方动态
 ---
 昨天 Kotlin 官方公布了一则消息：1.1 Beta 登场咯~用官方的原话就是说，这意味着正式版已经不再遥远，大家可以踊跃的试一试了~
 

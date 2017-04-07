@@ -1,6 +1,10 @@
 ---
-title: Kotlin从入门到『放弃』系列 视频教程
+title: Kotlin视频教程
 date: 2017-04-05 11:40:48
+author: bennyhuo
+tags: 视频教程
+keywords:
+categories: 视频教程
 ---
 
 

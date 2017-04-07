@@ -3,9 +3,9 @@
 title: 深入理解 Kotlin Coroutine (2)
 date: 2017-02-06 08:14:15
 author: bennyhuo
-tags:
+tags: [Coroutine, kotlinx]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

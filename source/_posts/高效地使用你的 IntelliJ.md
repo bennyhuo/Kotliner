@@ -3,9 +3,9 @@
 title: 高效地使用你的 IntelliJ
 date: 2017-01-09 16:20:22
 author: bennyhuo
-tags:
+tags: [IntelliJ, 快捷键, 高效]
 keywords:
-categories:
+categories: 其他
 ---
 
 

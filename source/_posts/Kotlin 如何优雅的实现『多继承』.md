@@ -3,9 +3,9 @@
 title: Kotlin 如何优雅的实现『多继承』
 date: 2016-12-26 09:49:45
 author: bennyhuo
-tags:
+tags: [接口代理, 多继承]
 keywords:
-categories:
+categories: 编程语言
 ---
 Hi，Kotliners，尽管视频完结了，不过每周一我还是会给大家推送一些 Kotlin 的有意思的话题，如果大家对视频有兴趣，直接点击阅读原文就可以找到~
 

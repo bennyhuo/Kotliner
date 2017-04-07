@@ -3,9 +3,9 @@
 title: 细说 Lambda 表达式
 date: 2017-02-13 10:37:42
 author: bennyhuo
-tags:
+tags: [Lambda, 匿名函数]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

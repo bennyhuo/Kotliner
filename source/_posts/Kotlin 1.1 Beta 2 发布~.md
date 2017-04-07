@@ -3,9 +3,9 @@
 title: Kotlin 1.1 Beta 2 发布~
 date: 2017-02-06 08:14:15
 author: bennyhuo
-tags:
+tags: [Coroutine, 兼容]
 keywords:
-categories:
+categories: 官方动态
 ---
 
 

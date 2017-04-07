@@ -3,9 +3,9 @@
 title: Kotlin 遇到 MyBatis：到底是 Int 的错，还是 data class 的错？
 date: 2017-03-27 09:26:47
 author: bennyhuo
-tags:
+tags: [JavaBean, NoArg]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

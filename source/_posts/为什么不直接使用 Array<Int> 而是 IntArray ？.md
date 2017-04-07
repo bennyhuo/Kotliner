@@ -3,9 +3,9 @@
 title: 为什么不直接使用 Array<Int> 而是 IntArray ？
 date: 2017-01-09 16:20:22
 author: bennyhuo
-tags:
+tags: [基本类型, 装箱类型]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

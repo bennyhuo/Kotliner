@@ -3,9 +3,9 @@
 title: Kotlin 兼容 Java 遇到的最大的坑 
 date: 2017-04-03 15:05:15
 author: bennyhuo
-tags:
+tags: [Java, AllOpen, NoArg, JavaBean]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

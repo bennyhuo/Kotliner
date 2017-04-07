@@ -3,9 +3,9 @@
 title: 用 Kotlin 写 Android 02 说说 Anko
 date: 2017-01-23 12:46:49
 author: bennyhuo
-tags:
+tags: [Anko, DSL]
 keywords:
-categories:
+categories: Android
 ---
 
 

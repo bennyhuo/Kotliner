@@ -3,9 +3,9 @@
 title: Kotlin 1.0.6
 date: 2017-01-02 16:22:57
 author: bennyhuo
-tags:
+tags: [AllOpen, NoArg, Kapt]
 keywords:
-categories:
+categories: 官方动态
 ---
 
 

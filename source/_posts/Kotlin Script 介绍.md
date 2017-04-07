@@ -3,9 +3,9 @@
 title: Kotlin Script 介绍
 date: 2017-03-13 12:43:19
 author: bennyhuo
-tags:
+tags: [KotlinScript, 脚本运行]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

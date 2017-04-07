@@ -3,9 +3,9 @@
 title: 勘误：15 Kotlin 与 Java 共存 (2) 
 date: 2017-01-30 12:25:08
 author: bennyhuo
-tags:
+tags: 泛型
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

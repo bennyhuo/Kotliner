@@ -3,9 +3,9 @@
 title: Kotlin 1.1
 date: 2017-03-04 08:46:34
 author: bennyhuo
-tags:
+tags: [Coroutine, JavaScript, 中文支持, Kotlin元年]
 keywords:
-categories:
+categories: 官方动态
 ---
 
 

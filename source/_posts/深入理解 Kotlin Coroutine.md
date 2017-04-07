@@ -3,9 +3,9 @@
 title: 深入理解 Kotlin Coroutine
 date: 2017-01-30 12:25:08
 author: bennyhuo
-tags:
+tags: [Coroutine, 基础Api]
 keywords:
-categories:
+categories: 编程语言
 ---
 
 

@@ -3,9 +3,9 @@
 title: 用 Kotlin 写 Android 01 难道只有环境搭建这么简单？
 date: 2017-01-16 11:07:06
 author: bennyhuo
-tags:
+tags: [搭建环境, Anko, extensions]
 keywords:
-categories:
+categories: Android
 ---
 
 
