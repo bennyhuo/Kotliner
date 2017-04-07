@@ -15,7 +15,7 @@ categories:
 
 前不久刚刚应小伙伴的要求拉了个 QQ 群：162452394 (微信群可以加我微信 enbandari，邀大家进群)，上周一的时候在公众号推送了之后一下子就热闹起来了。
 
-<img src="../../arts/e_group.png" width="250px"/>
+<img src="/arts/e_group.png" width="250px"/>
 
 
 话说有个哥们在群里面问了这么一个问题，他用 MyBatis 来接入数据库，有个实体类用 Kotlin 大概是这么写的：
