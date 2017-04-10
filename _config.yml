@@ -107,3 +107,6 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+author_generator:
+  per_page: 10
