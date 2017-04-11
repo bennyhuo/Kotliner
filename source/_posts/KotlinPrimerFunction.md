@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2017-04-07 09:10:11
 title: Kotlin Primer草稿 函数
 category: 编程语言
 author: 千里冰封
@@ -132,7 +133,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-其中， ```fun xxx() = Unit``` 表示这是一个空函数。
+其中， `fun xxx() = Unit` 表示这是一个空函数。
 
 如果一个函数不返回Unit或者Nothing，那么**尽可能让它成为一个[纯函数](https://en.wikipedia.org/wiki/Pure_function)**（即没有[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))的函数）。
 这是**[函数式编程](https://en.wikipedia.org/wiki/Functional_programming)**的约定。
@@ -691,7 +692,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-此时你可能会问：上面那个代码完全可以把整个```_ ->```给省掉啊？不是说单参数可以省吗？
+此时你可能会问：上面那个代码完全可以把整个`_ ->`给省掉啊？不是说单参数可以省吗？
 
 因为多参数是不能省的（多参数Lambda不写参数会报错），所以它还是很有用的：
 
@@ -826,7 +827,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-这叫做“Label return”，其中```return@```后面的标签（Label）是你要return的Lambda所传递给的函数名（比如上面就是function）。
+这叫做“Label return”，其中`return@`后面的标签（Label）是你要return的Lambda所传递给的函数名（比如上面就是function）。
 
 如果你的函数名是kotlinIsAwesome，那么你就需要这样写：
 
@@ -967,7 +968,7 @@ fun File.openOrCreate() {
 }
 ```
 
-卧槽！那个```if (!exists())```看起来就像是直接写在File类内部的方法一样啊！
+卧槽！那个`if (!exists())`看起来就像是直接写在File类内部的方法一样啊！
 
 其实这里是个小小的trick，编译器会这样处理它：
 
@@ -977,7 +978,7 @@ fun openOrCreate(receiver: File) {
 }
 ```
 
-也就是说，如果将```fun openOrCreate(receiver: File)```写成```fun File.openOrCreate()```，
+也就是说，如果将`fun openOrCreate(receiver: File)`写成`fun File.openOrCreate()`，
 那么这个函数可以直接调用File类的方法，就像它自己也是一个File类的方法一样。编译过后它会被处理为对receiver的方法调用。
 
 也就是说，这种扩展方法是不能调用private、protected以及internal的属性/方法的（因为它事实上就是一个普普通通的函数罢了）。
@@ -1030,7 +1031,7 @@ fun File.openOrCreate() {
 }
 ```
 
-读者可以通过在扩展函数内部调用```println(this)```来验证。
+读者可以通过在扩展函数内部调用`println(this)`来验证。
 
 ### 扩展Lambda
 
