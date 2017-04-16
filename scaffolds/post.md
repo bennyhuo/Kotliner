@@ -21,4 +21,4 @@ source_url:
 
 如果你有兴趣加入我们，请直接关注公众号 Kotlin ，或者加 QQ 群：162452394 联系我们。
 
-![](/arts/e_group.png)
+![](/arts/kotlin_group.jpg)

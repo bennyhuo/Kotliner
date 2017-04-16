@@ -13,7 +13,9 @@ reward_alipay:
 source_url:
 ---
 
->本文来自：www.kotliner.cn
+>本文来自：www.kotliner.cn，
+
+>源码地址：https://github.com/enbandari/Kotlin-Native-Demo
 
 **内容提要：本文通过 gradle 以及 makefile 两种方式对 Kotlin Native 项目进行构建，提供了详细的从 C 源码编译、到 Kotlin Native 项目的编译及运行的方法，以及该过程中遇到的问题和解决方案，涉及两处对编译器的修改也已经提交 pr。**
 
@@ -395,6 +397,6 @@ Kotlin 的出现很有希望终结 Jni 的痛苦现状，Kotlin Native 也将为
 
 -----------------
 
-如果你有兴趣加入我们，请直接关注公众号 Kotlin ，或者加 QQ 群：162452394 联系我们。
+如果你有兴趣加入我们，请直接关注公众号 Kotlin ，并且加 QQ 群：162452394 联系我们。
 
-![](/arts/e_group.png)
+![](/arts/kotlin_group.jpg)
