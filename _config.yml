@@ -6,6 +6,7 @@
 title: Kotliner
 subtitle: Kotlin 是门好语言
 description: 我们是来自中国的 Kotlin 爱好者
+keywords: Kotlin 教程 博客 官方
 author: Kotliner
 email: kotlin@kotliner.cn
 language: zh-CN
@@ -27,6 +28,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  google15a4f72a5504a841.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -69,8 +71,11 @@ theme: indigo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:enbandari/enbandari.github.io.git
+  branch: master
+- type: git
+  repo: https://git.coding.net/enbandari/enbandari.git
   branch: master
 
 # Extensions
@@ -85,6 +90,8 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 include:
   - .nojekyll
