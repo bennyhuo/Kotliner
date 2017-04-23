@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kotliner
-subtitle: Kotlin 是门好语言
-description: 我们是来自中国的 Kotlin 爱好者
-keywords: Kotlin 教程 博客 官方
-author: Kotliner
-email: kotlin@kotliner.cn
+title: Kotlin
+subtitle: 简洁、优雅，100% 兼容 Java
+description: Kotlin 是一门由 JetBrains 公司开发的运行在 JVM、Android、前端的静态语言，它 100% 兼容 Java，并且开始逐步支持 Native 编译。
+keywords: Kotlin Java IntelliJ Android 编程语言
+author: Kotlin
+email: Kotlin@kotliner.cn
 language: zh-CN
 avatar: assets/Kotlin-logo.png
 
