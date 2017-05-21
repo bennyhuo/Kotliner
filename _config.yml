@@ -71,9 +71,9 @@ theme: indigo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  repo: git@github.com:enbandari/enbandari.github.io.git
-  branch: master
+# - type: git
+#   repo: git@github.com:enbandari/enbandari.github.io.git
+#   branch: master
 - type: git
   repo: https://git.coding.net/enbandari/enbandari.git
   branch: master

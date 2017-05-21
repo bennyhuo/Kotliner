@@ -16,6 +16,8 @@ reward: false
 
 [Kotlin 成都分会](/chengdu/)
 
+[Kotlin 上海分会](http://shanghai.kotliner.cn)
+
 我们期待您的加入！
 
 ![](/arts/kotlin_group.jpg)
