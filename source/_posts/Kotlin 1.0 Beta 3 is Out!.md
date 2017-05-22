@@ -10,8 +10,8 @@ reward_title: Have a nice Kotlin!
 reward_wechat:
 reward_alipay:
 source_url: https://blog.jetbrains.com/kotlin/2015/12/kotlin-1-0-beta-3-is-out/
-translator:
-translator_url:
+translator: pye52
+translator_url: https://github.com/pye52
 ---
 
 我们很高兴发布了 Kotlin 1.0 Beta 的另一个更新。我们正在努力完善标准库，抛弃了过时已久的设计结构，同时修复了 bugs，改进性能和为下一个版本作准备。
@@ -130,7 +130,7 @@ class FreeActivity : AppCompatActivity() {
 
 * Android Extensions 插件已被合并到 Kotlin 插件中，不再需要单独安装
   <img src="https://i2.wp.com/blog.jetbrains.com/kotlin/files/2015/12/Screen-Shot-2015-12-02-at-19.54.03.png?w=640&amp;ssl=1" alt="Screen Shot 2015-12-02 at 19.54.03" width="640" height="437">
-  
+
 * 创建新的 Gradle 工程时，添加了 Kotlin 的选项以供选择：
 
 * 调试器：stacktrace 导航功能现在支持跟踪内联函数的堆栈帧。同时对内联函数的步进调试功能进行了一系列的改进。
