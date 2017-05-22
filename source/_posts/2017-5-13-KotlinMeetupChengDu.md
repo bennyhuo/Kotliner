@@ -5,6 +5,7 @@ category: 线下活动
 tags: 线下活动
 author: 千里冰封
 reward: false
+date: 2017-05-15 12:13:15
 source_url: http://ice1000.org/2017/05/13/KotlinMeetupChengDu
 keywords: Life,ice1000,Kotlin
 description: kotlin event ChengDu

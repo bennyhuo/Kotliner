@@ -10,8 +10,8 @@ reward_title: Have a nice Kotlin!
 reward_wechat:
 reward_alipay:
 source_url: https://blog.jetbrains.com/kotlin/2017/04/kotlinnative-tech-preview-kotlin-without-a-vm/  
-translator:SnakEys  
-translator_url:https://github.com/SnakeEys  
+translator:SnakEys
+translator_url:https://github.com/SnakeEys
 
 ---
 
