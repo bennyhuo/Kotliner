@@ -20,7 +20,6 @@ reward: false
     
 	* **中文网 贾彦伟 分享主题 <现代编程语言概览>**	
 
-	* **会有另外一位神秘的dalao参与演讲**
 
 * 时间安排:
 	
@@ -30,13 +29,17 @@ reward: false
 
 
 微信公众号: Kotlin 
+
 QQ群:162452394
-中文博客：[www.kotliner.cn](http://www.kotliner.cn/)
-中文官网：[www.kotlincn.net](https://www.kotlincn.net/)
-有问题可以到论坛提问：[dalao.kotliner.cn](http://dalao.kotliner.cn/)
 
-**不能参加线下见面的伙伴可以通过在直播[https://zaizhibo.tv/](https://zaizhibo.tv/)App在线观看现场的演讲,同时我们也会将讲解的技术内容收集起来,整理好后会放在博客中.**
+中文博客：[点击进入中文博客](http://www.kotliner.cn/)
 
-群设置了问题,经过讨论后我们的初衷是希望每一位喜欢Kotlin的伙伴可以认真的看文档,因为那是最基础的,而不是盲目的去学习,况且不看文档有些还是不容易明白的,望大家谅解.
+中文官网：[点击进入中文官网](https://www.kotlincn.net/)
+
+有问题可以到论坛提问：[点击进入论坛](http://dalao.kotliner.cn/)
+
+**不能参加线下见面的伙伴可以通过在直播[点击进入下载](https://zaizhibo.tv/)App在线观看现场的演讲,同时我们也会将讲解的技术内容收集起来,整理好后会放在博客中.**
+
+**群设置了问题,经过讨论后我们的初衷是希望每一位喜欢Kotlin的伙伴可以认真的看文档,因为那是最基础的,而不是盲目的去学习,况且不看文档有些还是不容易明白的,望大家谅解.**
 
 
