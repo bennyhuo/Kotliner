@@ -16,13 +16,13 @@ source_url:
 我定义了一个叫做 isEnabled 的变量：
 
 ```kotlin
-var isEnabled: Boolean = ...
+ var isEnabled: Boolean = ... 
 ```
 
 后面要用它的时候通常来说我会直接写出这个变量名，然后想到还得写个 if ... else，就像这样：
 
 ```kotlin
-if(isEnabled) ... else ...
+ if(isEnabled) ... else ... 
 ```
 
 当然 IntelliJ 也为我们提供了后缀表达式快速输入 if 语句：
@@ -36,71 +36,71 @@ if(isEnabled) ... else ...
 相比之下我更喜欢下面的写法：
 
 ```kotlin
-isEnabled.yes {
-	...
-}.otherwise {
-	...
-}
+ isEnabled.yes { 
+ 	... 
+ }.otherwise { 
+ 	... 
+ } 
 ```
 
 如果你还是看不出来 if 到底有什么“罪过”，那我们再来看一个场景：
 
 ```kotlin
-args
-    .map(String::toInt)
-    .filter{    it % 2 == 0		}
-    .count().equals(5)
-...
+ args 
+     .map(String::toInt) 
+     .filter{    it % 2 == 0		} 
+     .count().equals(5) 
+ ... 
 ```
 
 例子是我瞎写的，不用在意它的含义。假设我们通过一系列的函数调用得到了一个 Boolean 值，并且需要根据它的值来做出一些操作，那么我们是不是应该在外面套一层 if else 语句呢？
 
 ```kotlin
-if(args
-	.map(String::toInt)
-	.filter{    it % 2 == 0		}
-	.count() == 5
-){
-    println("输入参数中偶数的个数为5")
-} else {
-    println("输入参数中偶数的个人不为5")
-}
+ if(args 
+ 	.map(String::toInt) 
+ 	.filter{    it % 2 == 0		} 
+ 	.count() == 5 
+ ){ 
+     println("输入参数中偶数的个数为5") 
+ } else { 
+     println("输入参数中偶数的个人不为5") 
+ } 
 ```
 
 而我们通过扩展完全可以实现下面的写法：
 
 ```kotlin
-args
-    .map(String::toInt)
-    .filter{    it % 2 == 0		}
-    .count().equals(5)
-    .yes {
-        println("输入参数中偶数的个数为5")
-    }.otherwise {
-        println("输入参数中偶数的个人不为5")
-    }
+ args 
+     .map(String::toInt) 
+     .filter{    it % 2 == 0		} 
+     .count().equals(5) 
+     .yes { 
+         println("输入参数中偶数的个数为5") 
+     }.otherwise { 
+         println("输入参数中偶数的个人不为5") 
+     } 
 ```
 
 如果分支语句中还有返回值，我们也可以接着向下执行（当然，对于有返回值的分支语句，我们要求分支完备，也就是必须有 otherwise 调用）：
 
 ```kotlin
-args.map(String::toInt).filter{
-        it % 2 == 0
-    }.count().equals(5).yes {
-        "666"
-    }.otherwise {
-        "23333"
-    }.let(::println)
+ args.map(String::toInt).filter{ 
+         it % 2 == 0 
+     }.count().equals(5).yes { 
+         "666" 
+     }.otherwise { 
+         "23333" 
+     }.let(::println) 
 ```
 
 另外，我们可以稍稍做下修改，让语法变得更简单（并且不易懂= =？）：
 
 ```kotlin
-isEnabled {
-    "666"
-} otherwise {
-    "2333"
-}
+ isEnabled { 
+     "666" 
+ } otherwise { 
+     "2333" 
+ } 
 ```
 
 不过这样写有个弊端，就是在前面的 Boolean 值是个表达式的时候，需要加括号， otherwise 调用之后如果还有后续操作，那么也会产生歧义。当然这一步其实不是很必须了，做到前面的步骤已经足够。
@@ -108,36 +108,36 @@ isEnabled {
 下面我们来看下扩展的源码：
 
 ```kotlin
-sealed class BooleanExt<out T> constructor(val boolean: Boolean)
-
-object Otherwise : BooleanExt<Nothing>(true)
-class WithData<out T>(val data: T): BooleanExt<T>(false)
-
-inline fun <T> Boolean.yes(block: () -> T): BooleanExt<T> = when {
-    this -> {
-        WithData(block())
-    }
-    else -> Otherwise
-}
-
-inline fun <T> Boolean.no(block: () -> T) = when {
-    this -> Otherwise
-    else -> {
-        WithData(block())
-    }
-}
-
-inline infix fun <T> BooleanExt<T>.otherwise(block: () -> T): T {
-    return when (this) {
-        is Otherwise -> block()
-        is WithData<T> -> this.data
-        else ->{
-            throw IllegalAccessException()
-        }
-    }
-}
-
-inline operator fun <T> Boolean.invoke(block: () -> T) = yes(block)
+ sealed class BooleanExt<out T> constructor(val boolean: Boolean) 
+ 　 
+ object Otherwise : BooleanExt<Nothing>(true) 
+ class WithData<out T>(val data: T): BooleanExt<T>(false) 
+ 　 
+ inline fun <T> Boolean.yes(block: () -> T): BooleanExt<T> = when { 
+     this -> { 
+         WithData(block()) 
+     } 
+     else -> Otherwise 
+ } 
+ 　 
+ inline fun <T> Boolean.no(block: () -> T) = when { 
+     this -> Otherwise 
+     else -> { 
+         WithData(block()) 
+     } 
+ } 
+ 　 
+ inline infix fun <T> BooleanExt<T>.otherwise(block: () -> T): T { 
+     return when (this) { 
+         is Otherwise -> block() 
+         is WithData<T> -> this.data 
+         else ->{ 
+             throw IllegalAccessException() 
+         } 
+     } 
+ } 
+ 　 
+ inline operator fun <T> Boolean.invoke(block: () -> T) = yes(block) 
 ```
 
 ---
