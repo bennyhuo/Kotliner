@@ -21,6 +21,6 @@ source_url:
 
 ---
 
-如果你有兴趣加入我们，请直接关注公众号 Kotlin ，或者加 QQ 群：162452394 （**必须正确**回答加群暗号哈，防止特务混入）联系我们。
+关注公众号 Kotlin ，获取最新的 Kotlin 动态。
 
-![](/arts/kotlin_group.jpg)
+![](/arts/Kotlin.jpg)
