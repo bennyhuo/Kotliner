@@ -81,7 +81,7 @@ start()
 
 嗯，老夫想了想，这有何难，复制粘贴谁不会，真是的。
 
-![](/assets/2017.07.30/convert-code.gif)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.07.30/convert-code.gif)
 
 从此以后，我就成了 Kotlin 大神，反正只要用工具把 Java 代码转一下就好啦，还学什么学 >.<!
 
@@ -177,11 +177,11 @@ class BasePresenter<T : BaseView<*>> {
 
 吐槽转换工具就好比我们吐槽谷歌翻译一样：有时候不对，就像我们在 2、3 两节举的例子一样，
 
-![](/assets/2017.07.30/lookingforah.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.07.30/lookingforah.png)
 
 有时候呢，虽然不算错，但也实在是别扭...
 
-![](/assets/2017.07.30/pullthecalf.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.07.30/pullthecalf.png)
 
 比如我们今天提到的 Koans 的这道题目，代码转换的结果虽然是对的，但这代码直接暴露了你不会 Kotlin 的事实。会写 Kotlin 的人家都这么写：
 
@@ -222,4 +222,4 @@ Date().format("yyyy-MM-dd HH:mm:ss")
 
 关注 Kotlin，就像关注每天吃啥一样~
 
-![](/arts/Kotlin.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/Kotlin.jpg)

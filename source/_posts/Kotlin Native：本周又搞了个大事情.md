@@ -29,13 +29,13 @@ source_url:
 
 接着说 Kotlin Native，当小伙伴们看到 Kn 编译之后生成了这样的 stubs，瞬间表示 Jni 有救啦！
 
-![](/assets/2017.4.10/native.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.4.10/native.png)
 
 一个注解就能连接上 C 代码，是不是很让人期待！
 
-![](/assets/2017.4.10/show.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.4.10/show.jpg)
 
 想来也真是给力，上周刚刚推送的文章对 Kotlin Native 做了狠狠的期待，这周就出这样的大新闻，不得不说，2017 年 Kotlin 很让人期待呀，如果你还在犹豫到底要不要学，啥也别说了先加 QQ 群吧：
 
-![](/arts/e_group.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/e_group.png)
 

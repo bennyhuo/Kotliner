@@ -118,4 +118,4 @@ class Kotlin(jvmRunnable: JVMRunnable) : Language(), JVMRunnable by jvmRunnable,
 通过接口代理的方式，我们把 JVMRunnable 的具体实现代理给了 jvmRunnable 这个实例，这个实例当然是可以保存状态的，它一方面可以很好地解决我们前面提到的接口默认实现的问题，另一方面也能在提供能力的同时不影响原有类的『本质』。
 
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

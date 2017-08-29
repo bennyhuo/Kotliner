@@ -130,4 +130,4 @@ apply<KotlinPlugin>()
 
 infix 是一个非常有用的关键字，让你的代码看起来像一篇文章一样，你不比再为前后括号匹配着慌，每一个单词其实都是方法调用。
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

@@ -231,4 +231,4 @@ Kotlin 这么美的语言，怎么能写这么丑陋的东西呢？这就好比�
 
 我们用 Kotlin 企图兼容 Java 的做法，本来就是权宜之计，兼容必然带来新旧两种观念的冲突以及丑陋的发生，这么说来，我倒是更愿意期待 Kotlin Native 的出现了。
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

@@ -17,7 +17,7 @@ source_url:
 
 6月10日，我们 Kotlin 北京的小伙伴们进行了第一次线下活动，活动非常得欢乐，我们首先介绍了 Kotliner 社区的发展历程，并在冰封等小伙伴们毫不知情的情况下对他们进行了赞（tiao）扬（xi），总之这是一次成功滴活动，完美。
 
-![](/assets/2017.06.12/yonghegong.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.06.12/yonghegong.jpg)
 
 在活动一开始呢，大家对自己进行了介绍，介绍的过程中我就发现，哇，大家果然大多数都是 Android 开发者，同行居多来来握个爪(* @ο@ *) ～ 大家大多工作多年，有着比较丰富的工作经验，这一次过来也让我们看到其实程序员不是那么无聊的，有两位小伙伴都立刻马上要乐队搞起了，简直不能太有趣~
 
@@ -58,11 +58,11 @@ log("coroutine after")
 
 最后大家一起合影，话说这次发文化衫大家也没法直接换嘛，所以下次合影是不是就可以一起文化衫了呢！
 
-![](/assets/2017.06.12/beijing-meetup_small.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.06.12/beijing-meetup_small.jpg)
 
 
 ---
 
 如果你有兴趣加入我们，请直接关注公众号 Kotlin ，或者加 QQ 群：162452394 （**必须正确**回答加群暗号哈，防止特务混入）联系我们。
 
-![](/arts/kotlin_group.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin_group.jpg)

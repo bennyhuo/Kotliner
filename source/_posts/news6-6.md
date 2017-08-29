@@ -19,7 +19,7 @@ source_url:
 
 ### 6.6 慕课网：Kotlin 入门到进阶视频教程上线
 
-![](/assets/2017.06.06/kotlin-video.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.06.06/kotlin-video.jpg)
 
 * **视频地址：**[http://coding.imooc.com/class/108.html?mc_marking=ffb78af46cf443e20f3ab3891b3eaa3d&mc_channel=banner](http://coding.imooc.com/class/108.html?mc_marking=ffb78af46cf443e20f3ab3891b3eaa3d&mc_channel=banner)
 
@@ -35,7 +35,7 @@ source_url:
 
 ### 6.7 腾讯云：Kotlin 线上分享
 
-![](/assets/2017.06.06/qcloud.jpeg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.06.06/qcloud.jpeg)
 
 * **报名地址：** [https://ke.qq.com/course/212919#tuin=5778dd4e](https://ke.qq.com/course/212919#tuin=5778dd4e)
 
@@ -61,4 +61,4 @@ source_url:
 
 如果你有兴趣加入我们，请直接关注公众号 Kotlin ，或者加 QQ 群：162452394 （**必须正确**回答加群暗号哈，防止特务混入）联系我们。
 
-![](/arts/kotlin_group.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin_group.jpg)

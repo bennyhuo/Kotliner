@@ -27,7 +27,7 @@ Kotlin 中文站首页（[https://www.kotlincn.net/](https://www.kotlincn.net/)�
 
 这当然离不开创始人[晓_晨DEV](http://tanfujun.com)和我（[灰蓝天际](https://hltj.me/)）以及[所有参与翻译的同学](https://www.kotlincn.net/contribute.html#中文站翻译贡献者)的共同努力。我从 2016 年 2 月开始参与 Kotlin 中文站的翻译，Kotlin 1.0 就是那时正式发布的，时隔一年多又亲历了它 1.1 版的发布，见证它成长的同时，也在不断校对和补充官方参考文档的翻译。而晓\_晨DEV更是在 2015 年就开了 Kotlin 中文站的翻译，并且组织带动社区参与者一起翻译。在 Kotlin 中文站版本库的[贡献者统计图](https://github.com/hltj/kotlin-web-site-cn/graphs/contributors)中可以看到晓\_晨DEV与我分别提交了近 4000 行与近 6000 行的改动，已经同官方文档的撰写者一起排进了前十。
 
-![contributors.png](/assets/2017.05.17/contributors.png)
+![contributors.png](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.05.17/contributors.png)
 
 ## 与官方站及时同步
 Kotlin 中文站之所以能够与官网内容同步，在于创始人晓\_晨DEV采用了科学的翻译方式，其实也是开源界普遍采用的 fork-修改模式，只是 Kotlin 中文站直接 fork 了官方的英文源站。这样做的显著优势是官方站有任何更新可以及时合并进来。尽管这可能会引入冲突解决的环节，并且合并新的英文原版内容会降低翻译完整度。
@@ -49,4 +49,4 @@ Kotlin 网站最初是基于 Jekyll 的网站，目前是使用 Jinjia2 模版�
 - Github：[https://github.com/hltj](https://github.com/hltj)
 - 微博：[灰蓝天际](http://weibo.com/hltj)
 
-  ![](/assets/2017.05.17/weibo_qr.png)    ![](/assets/2017.05.17/wechat_qr.png)
+  ![](/assets/2017.05.17/weibo_qr.png)    ![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.05.17/wechat_qr.png)

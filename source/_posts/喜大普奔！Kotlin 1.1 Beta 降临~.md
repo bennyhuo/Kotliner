@@ -95,7 +95,7 @@ array.map(pdfPrinter::println)
 
 以前，data class 是不允许继承其他类的。不要问我为什么，没有父类这种事儿我更建议你去问问猴子。
 
-![](/assets/2017.1.21/houzi.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.21/houzi.png)
 
 > 你丫再瞎说小心我削你啊
 
@@ -170,9 +170,9 @@ provideDelegate 可以允许我们在配置了 Delegate 之后也可以做一些
 
 如果你也想吃螃蟹，那你必须更新你的 Kotlin 插件版本：
 
-![](/assets/2017.1.21/check.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.21/check.png)
 
-![](/assets/2017.1.21/choose.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.21/choose.png)
 
 选中 1.1 之后点击 check for update 就可以了。
 
@@ -203,4 +203,4 @@ Kotlin 的迭代速度还是非常快的，稳定版本基本上每两个月更�
 
 后续我也会陆续推送一些文章介绍 1.1 的新特性，希望大家多多关注~
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

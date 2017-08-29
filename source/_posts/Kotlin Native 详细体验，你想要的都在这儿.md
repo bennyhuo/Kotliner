@@ -53,7 +53,7 @@ $ ./gradlew dependencies:update
 ```
 这一步是下载依赖，官方源码使用了 gradle-wrapper，所以如果你本地没有 gradle 3.1 的话也会自动去下载。这一步就是下载下载下载，所以一定要注意，出错的话基本上就是网络问题。运行完成之后，你就会在 dist/dependencies 目录下面看到下载的各种依赖了。
 
-![](/assets/2017.04.15/deps.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.04.15/deps.png)
 
 接着就可以编译了：
 
@@ -63,7 +63,7 @@ $ ./gradlew dependencies:update
 
 编译时间不长，如果出现错误，可以 clean 多试几次。。编译完之后我们就可以得到编译器一份啦。
 
-![](/assets/2017.04.15/compiler.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.04.15/compiler.png)
 
 ### 2.2 Gradle 版 HelloWorld
 
@@ -399,4 +399,4 @@ Kotlin 的出现很有希望终结 Jni 的痛苦现状，Kotlin Native 也将为
 
 如果你有兴趣加入我们，请直接关注公众号 Kotlin ，并且加 QQ 群：162452394 联系我们。
 
-![](/arts/kotlin_group.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin_group.jpg)

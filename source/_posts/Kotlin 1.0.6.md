@@ -36,13 +36,13 @@ reader.use{
 
 所以，这次更新 Kotlin 的插件为我们带来了这样的自动转换功能：
 
-![](/assets/2017.1.2/try.gif)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.2/try.gif)
 
 * 2. 补全具名参数
 
 通常我们在编写代码的时候，函数入参都会按照顺序一个一个传入，不过随着代码量的增加，特别是对于参数较多的函数，一长串的代码看上去会让我们感到非常的头疼。所以，这次更新 Kotlin 还为我们带来了自动补全具名参数的功能。
 
-![](/assets/2017.1.2/args.gif)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.2/args.gif)
 
 * 3. 删除空构造方法的声明
 * 4. 合并声明和赋值
@@ -138,4 +138,4 @@ noArg {
 
 
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

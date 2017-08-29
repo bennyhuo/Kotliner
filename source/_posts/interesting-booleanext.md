@@ -27,7 +27,7 @@ source_url:
 
 当然 IntelliJ 也为我们提供了后缀表达式快速输入 if 语句：
 
-![](/assets/2017.06.19/booleanext.gif)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.06.19/booleanext.gif)
 
 当我想要做一个判断的时候，我首先想到的是这个变量 isEnabled，于是通常我会很快的把它给打出来，接着我想着如果它为 true，那么如何如何，这时候还需要把光标移到最开始，写下 if，尽管我们刚说 IntelliJ 提供了后缀表达式来简化这个输入过程，但还是不能改变这个反人类的输入本质啊。
 
@@ -144,4 +144,4 @@ source_url:
 
 如果你有兴趣加入我们，请直接关注公众号 Kotlin ，或者加 QQ 群：162452394 （**必须正确**回答加群暗号哈，防止特务混入）联系我们。
 
-![](/arts/kotlin_group.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin_group.jpg)

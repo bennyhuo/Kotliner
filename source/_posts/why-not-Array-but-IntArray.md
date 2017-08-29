@@ -185,4 +185,4 @@ public enum PrimitiveType {
 如果跟高大上的设计模式、应用框架比起来，基本类型的数组问题，算不上一个“大”问题。不过，我希望通过本文传达给大家的一个信息是：“Kotlin 是开源哒，源码面前，了无秘密”。
 
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

@@ -51,11 +51,11 @@ source_url:
 
 哦，不，不能这样，据说最近各方大佬们都已经开始不怎么关注 Kotlin 了，原因嘛，估计也是工（wu）作（li）太（ke）忙（tu）吧，所以我要挺住。。。
 
-![](/assets/2017.08.06/tingzhu.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.08.06/tingzhu.jpg)
 
 这两个东西一个叫具名参数，一个叫默认参数，默认参数很好理解，如果你不选套餐，那么我们就给你一个默认的汉堡薯条加可乐的意思；具名参数呢，就是传参的时候你可以明确告诉函数你传入的某一个参数是给谁的：皑？小明！那本书是韩梅梅给李雷的，你不要乱动！
 
-![](/assets/2017.08.06/lilei&hanmeimei.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.08.06/lilei%26hanmeimei.jpg)
 
 其实对具名参数的支持可以让默认参数的技能范围增强，而不是缩在参数列表最后的一个或者几个参数范围之内；具名参数还有的好处自然就是可读性强，大老远就能看见那是李雷而不是韩梅梅。
 
@@ -184,7 +184,7 @@ ints.remove(0);
 
 你知道这是在移除元素 5 呢还是在移除第 5 个元素呢？不知道，编译器当然有自己的套路，这种情况下，两个方法只有一个会生效，除非用反射去调用，不然的话永远调用不到另一个。
 
-![](/assets/2017.08.06/liulei.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.08.06/liulei.jpg)
 
 所以这个重载从效用上来说是失败的，这也正印证了其设计的失败：能够重载的方法不应该只是有逻辑关系。
 
@@ -348,10 +348,10 @@ class MyArrayList<T>: ArrayList<T>{
 
 补充说明：在早期的版本当中，Kotlin 是不允许没有主构造器的，尽管不添加主构造器的写法现在也是允许的，但这种做法显然也是不被推荐的。
 
-![](/assets/2017.08.06/xiaohuangren.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.08.06/xiaohuangren.jpg)
 
 ---
 
 关注公众号 Kotlin ，获取最新的 Kotlin 动态。
 
-![](/arts/Kotlin.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/Kotlin.jpg)

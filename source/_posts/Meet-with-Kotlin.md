@@ -32,4 +32,4 @@ source_url:
 
 关注公众号 Kotlin ，获取最新的 Kotlin 动态。
 
-![](/arts/Kotlin.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/Kotlin.jpg)

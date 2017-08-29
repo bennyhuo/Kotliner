@@ -11,7 +11,7 @@ categories: 心路历程
 
 ## ►1.1 RC 来了，Release 还会远吗？
 
-<center>![](/assets/2017.2.20/11RC-01.png)</center>
+<center>![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.2.20/11RC-01.png)</center>
 
 去年 2 月 19 日 1.0 发版，我记得此前看到论坛上面开始讨论 1.0 API 趋于稳定的话题，想想都还挺兴奋呢，一不留神，Kotlin 1.0 在稳定奔跑一年之后，也终于迎来下一个版本：就在前天（17日），我留意到 Kotlin 官博发出了 1.1 RC(Release Candidate) 的消息，截止到目前，1.1 的所有开发工作都已经进入尾声，剩下的就只有我们期待的眼神了。
 
@@ -27,7 +27,7 @@ Kotlin 则不一样了。它出现的不算早，大概 2010 年的样子吧，�
 
 ## ►还记得，你与 Kotiln 的第一次相遇吗？
 
-<center>![](/assets/2017.2.20/zhiyin.jpg)</center>
+<center>![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.2.20/zhiyin.jpg)</center>
 
 最早认识 Kotlin 还是在 15 年初，那时候我正热衷于编写 IntelliJ 的插件，尽管后面成果空空，不过一些个莫名其妙的后缀为 kt 的文件却着实让我头疼不已。尽管照着说明安装好 Kotlin 的插件，可因为版本不一致，始终无法编译过去，真是无可奈何啊。当时我还想，又有新语言啊，这可当真是学海无涯咯。
 
@@ -37,18 +37,18 @@ Kotlin 则不一样了。它出现的不算早，大概 2010 年的样子吧，�
 ## ​►Kotlin 给你带来了什么？
 去年上半年有段时间经常奔波在北京和深圳之间，工作节奏“日新月异”，项目似乎进入了一种莫名其妙的状态，而我自己则犹如置身死水，所幸我也是上过王者的人了，也不枉费我那一段时间在上面投入的一个个不眠之夜吧。
 
-<center>![](/assets/2017.2.20/wangzhe.jpg)</center>
+<center>![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.2.20/wangzhe.jpg)</center>
 
 那段时间，我对项目的代码有我“自以为是的足够”的祸害的自由，于是我开始肆无忌惮的用 Kotlin 写一些模块，完全没有顾及合作开发的我们组唯一的妹子的感受。以及，这代码后来落入导师手中，我也算是坑他们不浅呐。不过，如果没有这段经历，或许我后来也不会有那么大的底气去在 10 月份斗胆录制视频，也自然不会去开公众号每周发几篇水文了。说来，得好好谢谢他们。
 
 
-<center>![](/assets/2017.2.20/embarassed.png)</center>
+<center>![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.2.20/embarassed.png)</center>
 
 话说，自从摊上这么个事儿，我只好每天早晨 6 点起来或写写东西，或看看书，学点儿东西，每天节奏也极其规律，中午再也没没有精力跟小伙伴们组团王者了，因为我得睡一个小时。
 
 年前我又在 Bugly 公众号发了一篇文章：[你为什么需要 Kotlin](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653578489&idx=1&sn=17d6e657d81c0daa345489271d305b36&chksm=84b3b6feb3c43fe8b0197850bf6ca8caefaa8045671f75ed6dec2171a681496365acfd0ebd33&mpshare=1&scene=23&srcid=0217VmFlkVB0LB4I2YRbvicL#rd)，结果大家都说我是被代码耽误了的段子手，呃。。我想说你们说的很对！
 
-<center>![](/assets/2017.2.20/right.jpg)</center>
+<center>![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.2.20/right.jpg)</center>
 
 承蒙各位朋友厚爱，经常提及后续视频录制的问题，我正在尝试重新录制一套较为细致和基础的视频，目前讲义已经编写完毕，至于发布时间，那得看我啥时候录得完啦。
 
@@ -56,4 +56,4 @@ Kotlin 则不一样了。它出现的不算早，大概 2010 年的样子吧，�
 
 
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)

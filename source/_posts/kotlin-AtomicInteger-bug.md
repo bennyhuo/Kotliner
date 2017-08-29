@@ -3,7 +3,7 @@ title: 诡异了，AtomicInteger 在 Kotlin 里面居然是 Abstract 的？
 category: 编程语言
 author: bennyhuo
 reward: false
-date: 2017-08-14 08:03:43
+date: 2017-08-26 08:03:43
 tags:
 keywords:
 description:
@@ -12,8 +12,6 @@ reward_wechat:
 reward_alipay:
 source_url:
 ---
-
-> 提示：点击阅读原文获取文中链接。
 
 ### 1. 人生自古哪儿没坑
 
@@ -96,7 +94,7 @@ class MyNumber: Number(){
     MAXLOCALS = 1
 ```
 
-而这个 `doubleValue` 正是转而去掉用了 `toDouble` 这个方法！
+而这个 `doubleValue` 正是转而去调用了 `toDouble` 这个方法！
 
 好，那么前面一直出问题的 `toByte` 呢？也是一样，生成了一个叫做 `byteValue` 的方法，然后去调用了 `toByte`。
 
@@ -134,4 +132,4 @@ class CallArbiter<T>{
 
 关注公众号 Kotlin ，获取最新的 Kotlin 动态。
 
-![](/arts/Kotlin.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/Kotlin.jpg)

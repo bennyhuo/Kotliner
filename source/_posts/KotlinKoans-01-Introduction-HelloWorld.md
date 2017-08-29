@@ -17,7 +17,7 @@ source_url:
 
 Kotlin 火了吗？也许吧。反正以前不知道它的，现在陆陆续续知道了；以前不敢用它的，现在也开始慢慢接受了；以前就热衷于它的，比如我这样的（说着摸了摸自己的脸，嗯，够大 T T）
 
-![](/assets/2017.07.23/biglian.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.07.23/biglian.jpg)
 
 还是一如既往的想着怎么让大家都用起来。
 
@@ -41,7 +41,7 @@ Kotlin Koans 有两种办法可以使用到，一种直接在 http://try.kotl.in
 
 我比较推荐本地使用的方式。所以读到这里请大家毫不犹豫的去安装插件，安装完成之后就可以直接创建 Kotlin Koans 的工程啦。
 
-![](/assets/2017.07.23/install-edu-kotlin.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.07.23/install-edu-kotlin.png)
 
 ### 3. 千里之行，始于 Hello World
 
@@ -53,7 +53,7 @@ fun start(): String = "OK"
 
 写完了别忘了点右面的按钮 check 一下，这样就显示你通过了这一关。
 
-![](/assets/2017.07.23/check-solution.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.07.23/check-solution.png)
 
 ### 4. 从来没有什么简单的 Hello World
 
@@ -89,4 +89,4 @@ fun start() = "OK"
 
 关注公众号 Kotlin ，获取最新的 Kotlin 动态。
 
-![](/arts/Kotlin.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/Kotlin.jpg)

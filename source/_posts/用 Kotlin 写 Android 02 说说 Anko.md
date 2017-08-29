@@ -102,7 +102,7 @@ linearLayout {
 ```
 效果图如下：
 
-![](/assets/2017.1.23/linear.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.23/linear.png)
 
 ### 2.2 纵向布局
 
@@ -208,7 +208,7 @@ relativeLayout {
 
 效果如下：
 
-![](/assets/2017.1.23/relative.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/2017.1.23/relative.png)
 
 注意到我在 TextView 当中用了两个方法：usePrimary() 和 useSecondary()，这其实是我定义的样式：
 
@@ -521,4 +521,4 @@ Anko 这个框架其实没有什么复杂的地方，它更多的是在想办法
 
 除了前面提到的特性，Anko 还可以简化对话框、toast、sqlite 等操作，相比之下，toast 的用法还是比较常用的，也比较简单，我就不细说了；至于 sqlite ，通常我们也不建议去直接操作它，用一些 ORM 框架可能会让你的代码更友好。
 
-![](/arts/kotlin扫码关注.png)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.png)
