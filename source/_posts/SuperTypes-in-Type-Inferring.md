@@ -99,7 +99,7 @@ val childOrParent = childA?: childB
     LINENUMBER 21 L10
    L11
     ALOAD 4
-    CHECKCAST java/lang/Comparable
+    CHECKCAST com/bennyhuo/Parent
    L12
     ASTORE 5
 ```
