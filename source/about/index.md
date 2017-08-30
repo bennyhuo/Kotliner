@@ -20,4 +20,4 @@ reward: false
 
 我们期待您的加入！
 
-![](/arts/kotlin_group.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/kotlin_group.jpg)

@@ -1,4 +1,18 @@
-# val b = a?: 0，a 是 Double 类型，那 b 是什么类型？
+---
+title: 'val b = a?: 0，a 是 Double 类型，那 b 是什么类型？'
+category: 编程语言
+author: bennyhuo
+reward: false
+date: 2017-08-30 08:03:43
+tags:
+keywords:
+description:
+reward_title:
+reward_wechat:
+reward_alipay:
+source_url:
+---
+
 
 > 前面有朋友看了我的文章之后，表示都不敢用 Kotlin 了。
 > 
@@ -23,7 +37,7 @@
 
 真的是这样吗？
 
-![](/assets/15039773971806.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15039773971806.jpg)
 
 很遗憾，IntelliJ 告诉我们，`b` 的类型是 `Any`。
 
@@ -50,7 +64,7 @@ class ChildB: Parent
 ```
 有了前面的经验，我就有点儿担心 Kotlin 会把 `childOrParent` 这个变量推导成 `Any` 了，不过结果却并不是这样：
 
-![](/assets/15039778133742.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15039778133742.jpg)
 
 推导的类型是 `Parent`，是合乎情理的。
 
@@ -139,19 +153,19 @@ val childOrParent = childA?: childB
 
 为了搞清楚编译器是怎么做的，我们需要把 [Kotlin](https://github.com/JetBrains/kotlin) 的源码拖下来，编译运行，打断点调试，找到一个叫做 `TypeBoundsImpl` 的类，这个类实际上就是负责计算公共父类的，有兴趣的朋友也可以自行研读一下它的 `computeValues` 方法，我们在这里只简单介绍一下公共父类的计算方法：
 
-![](/assets/15040135903171.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040135903171.jpg)
 
 `Int` 和 `Double` 除了有个公共父类 `Number` 之外，还都实现了 `Comparable` 接口，所以在计算公共父类的时候，先把他们都罗列出来，然后最终变成了求 `Number` 和 `Comparable` 的公共父类，那么自然就是 `Any` 了。
 
 而我们再来看看另外的情形：
 
-![](/assets/15040139035564.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040139035564.jpg)
 
 `AtomicInteger` 和 `Double` 只有一个公共父类 `Number`，不像前面还有个公共父接口 `Comparable`，这样问题就简单了，直接把 `b` 的类型推导成 `Number` 而不是 `Any`。
 
 那么对于我们自定义的那一组例子，结果也类似：
 
-![](/assets/15040140676853.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040140676853.jpg)
 
 不过我们稍加修改，结果就又是一番情景了：
 
@@ -161,7 +175,7 @@ class ChildA: Parent, Serializable
 class ChildB: Parent, Serializable
 ```
 
-![](/assets/15040141583459.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040141583459.jpg)
 
 这下你能想明白是为啥了吧？
 
@@ -171,11 +185,30 @@ class ChildB: Parent, Serializable
 
 这里有人肯定还是觉得奇怪，因为 `Int` 和 `Double` 的父类和接口都一样呀，为啥推导的结果不是 `Number` 呢？
 
-![](/assets/15040148638022.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040148638022.jpg)
 
 显然这里 Kotlin 的开发者也是很纠结的，既然可以推导成 `Number`，那么推导成 `Comparable` 可以不可以呢？换句话说，对于两个类型有两个以上没有继承关系的公共父类（接口）的情形，推导的结果会有歧义，可能也是为了消除这种歧义，Kotlin 编译器采用了一种比较稳妥的方式来处理，不偏袒任何一方，直接将推导的结果定为 `Any` 也是合情合理的。
 
 这时候如果你明确知道自己想要什么，例如前面的例子，我们想要 `b` 的类型是 `Number` 而不是 `Comparable` ，那么只需要显式的为 `b` 声明类型就可以了。
+
+## 7. 看看其他语言怎么做
+
+对于类似的情形，C# 直接报错：
+
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040503926970.jpg)
+
+即便 `C` 和 `D` 有公共父类， C# 仍然需要你明确他们的类型，大家可以参考 StackOverflow 上面的讨论：
+[No implicit conversion when using conditional operator](https://stackoverflow.com/questions/6137974/no-implicit-conversion-when-using-conditional-operator)
+
+当然，如果能像 Scala 那样推导，也是不错滴：
+
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15040506938974.jpg)
+
+但不是所有的类都有 Scala 的交集类型（intersection type ）。
+
+---
+
+欢迎关注微信公众号 Kotlin
 
 ![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/arts/Kotlin.jpg)
 
