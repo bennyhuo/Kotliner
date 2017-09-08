@@ -37,7 +37,7 @@ public inline fun String.toInt(radix: Int): Int = java.lang.Integer.parseInt(thi
 然而，不幸的是，这段代码运行时异常：
 
 ```
-xception in thread "main" kotlin.reflect.jvm.internal.KotlinReflectionInternalError: 
+Exception in thread "main" kotlin.reflect.jvm.internal.KotlinReflectionInternalError: 
 
 Reflection on built-in Kotlin types is not yet fully supported. 
 
