@@ -49,7 +49,7 @@ kotlin.Int defined in kotlin.String[DeserializedPropertyDescriptor@1018bde2]
 
 什么鬼！还能不能愉快的玩耍了？引入一个 2.5M 大的反射包已经够够的了（要知道我们腾讯地图的矢量 SDK 也才 1M 多一点儿），结果还不能玩耍了？？
 
-随便 Google 了一下，果然我不是一个人在坑里呆着： [](https://youtrack.jetbrains.com/issue/KT-13077)
+随便 Google 了一下，果然我不是一个人在坑里呆着： [Support reflective access to built-in classes and members](https://youtrack.jetbrains.com/issue/KT-13077)
 
 好吧，我们看看报错的究竟是什么鬼
 
