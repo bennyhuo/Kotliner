@@ -53,7 +53,7 @@ kotlin.Int defined in kotlin.String[DeserializedPropertyDescriptor@1018bde2]
 
 好吧，我们看看报错的究竟是什么鬼
 
-![](/assets/15048617397170.jpg)
+![](http://kotlinblog-1251218094.costj.myqcloud.com/80f29e08-11ff-4c47-a6d1-6c4a4ae08ae8/assets/15048617397170.jpg)
 
 报错的位置是 `String` 的一个叫 `length` 的属性，好的，我们在 `String.kt` 文件当中呢，只能看到下面的代码：
 
@@ -87,6 +87,8 @@ val KClass<*>.memberExtensionFunctions: Collection<KFunction<*>>
 哇靠，遇到这样的问题该怎么办呢？
 
 很简单，遇到这样的映射问题，通常说明这个东西就是 Java 本身的东西，用 Java 反射就好啦！
+
+> 通过论坛的帖子了解到，Kotlin 的反射目前也没有做太多的优化工作，使用起来比等价的 Java 反射也要慢一些，所以使用时请大家三思。
 
 不得不说， Kotlin 的坑，基本上都是为了兼容 Java 导致的，比如前面几篇文章提到的类型映射的问题，数据类的问题，相信在 Kotlin 后面的版本，这些问题都将不是问题~~
 
